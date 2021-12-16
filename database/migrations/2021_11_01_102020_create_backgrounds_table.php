@@ -14,8 +14,8 @@ class CreateBackgroundsTable extends Migration
     public function up()
     {
         Schema::create('backgrounds', function (Blueprint $table) {
+            $table->increments('id_background');
             $table->string('name',200);
-            
             $table->string('image');
             $table->string('status');
             $table->timestamps();

@@ -6,12 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Background extends Model
 {
-    protected $table = 'background';
-    protected $fillable = [
-        'name',
-        
-        'image',
-        'status'
-        
-    ];
+    protected $primaryKey = 'id_background';
 }

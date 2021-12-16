@@ -17,8 +17,13 @@
                     <p><strong>Email:</strong> {{Auth::user()->email}}</p>
                     <p><strong>Phone:</strong> {{Auth::user()->phone}}</p>
                     <p><strong>Address:</strong> {{Auth::user()->address}}</p>
-                    <a href="{{route('index')}}" class="btn btn-primary">Product Management</a>
+                    <p>
+                        @if(Auth::user()->checkIsAdmin())
+                        <a href="{{route('index')}}" class="btn btn-primary">Product Management</a>
+                        @endif
+                    
                     <a href="" class="btn btn-success">Home</a>
+                </p>
                 </div>
             </div>
         </div>

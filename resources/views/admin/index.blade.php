@@ -13,34 +13,44 @@
             <tr>
               <th>Product_id</th>
               <th>name</th>
+              <th>description</th>
               <th>image</th>
-              <th>category</th>
               <th>price</th>
+              <th>category</th>
               <th>action</th>
             </tr>
             </thead>
             <tbody>
-            <tr>
-              <td>Trident</td>
-              <td>Internet
-                Explorer 4.0
-              </td>
-              <td>Win 95+</td>
-              <td> 4</td>
-              <td>X</td>
-              <td>
-                  <a href="" class="btn btn-success">Edit</a>
-                  <a href="" class="btn btn-danger">Delete</a>
-              </td>
-            </tr>
+              @foreach ($product as $products)
+              <tr>
+              
+                <td>{{$products->id_product}}</td>
+                <td>
+                  {{$products->name}} </td>
+                  <td>{{$products->description}}</td>
+                  <td>
+                   <img src=" {{asset('admin/images/'.$products->image)}}" alt="" style="width:100px"
+                  </td>
+                  <td>฿{{number_format($products->price)}}</td>
+                <td> {{$products->category->name}}</td>
+                
+                <td>  
+                    <a href="{{url('/admin/product/edit/'.$products->id_product)}}" class="btn btn-success">Edit</a>
+                    <a href="{{url('/admin/product/delete/'.$products->id_product)}}" class="btn btn-danger">Delete</a>
+                </td>
+              </tr>
+              
+              @endforeach
             
             </tbody>
-          </table>
+          
         </div>
+        
         <!-- /.card-body -->
       </div>
       <!-- /.card -->
     </div>
 </div>
+
     
 @endsection

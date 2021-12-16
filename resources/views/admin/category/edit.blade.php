@@ -10,7 +10,7 @@
         </div>
         <!-- /.card-header -->
         <!-- form start -->
-        <form action="{{url('/admin/category/Update/'.$category->category)}}" method="post">
+        <form action="{{url('/admin/category/Update/'.$category->category_id)}}" method="post">
           {{csrf_field()}}
           <div class="card-body">
             

@@ -14,6 +14,7 @@ class CreateOrganizersTable extends Migration
     public function up()
     {
         Schema::create('organizers', function (Blueprint $table) {
+            $table->increments('id_organizer');
             $table->string('name');
             $table->string('image');
             $table->timestamps();

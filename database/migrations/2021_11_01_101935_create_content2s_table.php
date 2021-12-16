@@ -14,6 +14,7 @@ class CreateContent2sTable extends Migration
     public function up()
     {
         Schema::create('content2s', function (Blueprint $table) {
+            $table->increments('id_content2');
             $table->string('name',200);
             
             $table->string('image');
