@@ -24,19 +24,19 @@
       <div class="row" data-aos="fade-up">
       <div class="col-lg-4 d-flex justify-content-center">
       <div class="card" style="width: 18rem;">
-        <img src="{{asset('admin/img/product/picture.png')}}" class="card-img-top" alt="...">
+        <img src="{{asset('admin/img/product/ไข่ไก่.jpg')}}" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">ไข่ไก่เบอร์ 0</h5>
-          <p class="card-text">ราคา 120บาท</p>
+          <h5 class="card-title">ไข่ไก่เบอร์ 0 </h5>
+          <p class="card-text">ราคา 45บาท</p>
         </div>
       </div>
               
               </div>
               <div class="col-lg-4 d-flex justify-content-center">
               <div class="card" style="width: 18rem;">
-        <img src="{{asset('admin/img/product/picture.png')}}" class="card-img-top" alt="...">
+        <img src="{{asset('admin/img/product/มาม่า.jpg')}}" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">น้ำยาล้างจานรีพีล</h5>
+          <h5 class="card-title">มาม่าหมูสับ</h5>
           <p class="card-text">ถุงละ 100บาท</p>
         </div>
       </div>
@@ -45,7 +45,7 @@
               </div>
               <div class="col-lg-4 d-flex justify-content-center">
               <div class="card" style="width: 18rem;">
-        <img src="{{asset('admin/img/product/picture.png')}}" class="card-img-top" alt="...">
+        <img src="{{asset('admin/img/product/น้ำจิ้มพันท้าย.png')}}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">น้ำจิ้มพันท้าย</h5>
           <p class="card-text">ขวดละ 55บาท</p>
@@ -57,7 +57,7 @@
               <div class="row" data-aos="fade-up"> 
               <div class="col-lg-4 d-flex justify-content-center">
               <div class="card" style="width: 18rem;">
-        <img src="{{asset('admin/img/product/picture.png')}}" class="card-img-top" alt="...">
+        <img src="{{asset('admin/img/product/น้าปลาทิพรส.jpg')}}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">น้ำปลาทิพรส</h5>
           <p class="card-text">ถุงละ 32บาท</p>
@@ -68,7 +68,7 @@
               </div>
               <div class="col-lg-4 d-flex justify-content-center">
               <div class="card" style="width: 18rem;">
-        <img src="{{asset('admin/img/product/picture.png')}}" class="card-img-top" alt="...">
+        <img src="{{asset('admin/img/product/น้ำตาล.jpg')}}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">น้ำตาลทรายขาว</h5>
           <p class="card-text">ถุงละ 32บาท</p>         
@@ -78,7 +78,7 @@
               </div>
               <div class="col-lg-4 d-flex justify-content-center">
               <div class="card" style="width: 18rem;">
-        <img src="{{asset('admin/img/product/picture.png')}}" class="card-img-top" alt="..." >
+        <img src="{{asset('admin/img/product/กะทิ.jpg')}}" class="card-img-top" alt="..." >
         <div class="card-body">
           <h5 class="card-title">กะทิชาวเกาะ</h5>
           <p class="card-text">กล่องละ 24บาท</p>

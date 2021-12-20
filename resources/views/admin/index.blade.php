@@ -43,14 +43,13 @@
               @endforeach
             
             </tbody>
-          
+            </table>
+          </div>
         </div>
-        
-        <!-- /.card-body -->
+        </div>
       </div>
-      <!-- /.card -->
-    </div>
-</div>
+
 
     
+
 @endsection
